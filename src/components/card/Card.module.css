@@ -1,0 +1,55 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: #1b1e23;
+    width: 380px;
+    height: 450px;
+    color: white;
+    border-radius: 15px;
+    margin: 40px;
+    z-index: 0;
+    box-shadow: 0 0.2rem 0.4rem #4d4e52;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-1%);
+    box-shadow: 0 0.5rem 1rem #4d4e52;
+}
+
+.content {
+    padding: 15px 40px 30px 40px;
+}
+
+.projectName {
+    font-size: 30px;
+    font-weight: 400;
+    color: #64f4ac;
+}
+
+.techList {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+
+.tech {
+    font-size: 10px;
+    margin: 5px 10px 5px 0;
+    padding: 2px 3px;
+    background-color: #4d4e52;
+    color: #adaeb2;
+    border-radius: 4px;
+}
+
+.description {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.projectImg {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}

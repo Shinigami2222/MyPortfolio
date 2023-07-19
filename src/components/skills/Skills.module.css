@@ -1,0 +1,10 @@
+.skills {
+    background-color: #25262a;
+    padding: 40px 80px;
+    text-align: center;
+}
+
+.skill {
+    height: 100px;
+    padding: 20px;
+}

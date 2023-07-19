@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Orbitron&family=Roboto&display=swap');
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    background-color: #25262a;
+    color: white;
+    padding: 80px 130px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col1 {
+    height: 350px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.make {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.hi_p {
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding: 40px 0;
+}
+
+.hi_span {
+    color: #64f4ac;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.copyright {
+    display: flex;
+    align-items: end;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 80px;
+    cursor: pointer;
+}
+
+.name span {
+    color: #d9d9d9;
+    font-weight: normal;
+}
+
+.rights {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #88898d;
+}
+
+.info {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #88898d;
+}
+
+.address {
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 25px;
+    color: #88898d
+}
+
+.email {
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.options {
+    padding: 50px 0;
+}
+
+.option {
+    font-size: 12px;
+    padding: 6px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.option:hover {
+    color: #64f4ac;
+}
+
+.social {
+    height: 25px;
+    padding-right: 10px;
+    cursor: pointer;
+}

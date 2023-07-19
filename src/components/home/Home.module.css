@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Orbitron&display=swap');
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d2e32;
+    color: white;
+    padding: 90px 100px 50px 100px;
+}
+
+.p {
+    color: #626263;
+    font-size: x-large;
+    padding: 30px 0;
+}
+
+.p span {
+    color: #64f4ac;
+}
+
+.h1 {
+    color: #626263;
+    padding: 0 60px;
+    font-size: large;
+}
+
+.name {
+    padding: 0 80px;
+    font-size: 70px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.resume {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    color: #64f4ac;
+    background-color: #2d2e32;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: x-large;
+    transition: all 0.3s ease-in;
+}
+
+.resume:hover {
+    background-color: #64f4ac;
+    color: black;
+}
+
+.circle {
+    background-color: #2d2e32;
+    border: 1px solid white;
+}
